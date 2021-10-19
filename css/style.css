@@ -1,0 +1,510 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2019, 8:33:36 PM
+    Author     : Nahid
+*/
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*mm*/
+.f_nav{
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 60px 0;
+    z-index: 1000;
+    transition: all .5s linear;
+}
+.logo{
+    padding: 5px 0;
+}
+.logo h2{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color: #275CAB;
+}
+.logo img{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: -23px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 4px 50px;
+    background: #C2DFFF;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: all .5s linear;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background: #275CAB;
+}
+
+/*mmm*/
+.f_banner{
+    /*    margin-bottom: 100px;*/
+}
+.slider{
+    position: absolute;
+    background: url(../images/banner.jpg) left top no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 699px;
+    position: relative;
+    z-index: 1;
+}
+.slider1{
+    background: url(../images/banner1.jpg) left top no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: center;
+}
+.slider2{
+    background: url(../images/banner2.jpg) left top no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: center;
+}
+.slider3{
+    background: url(../images/banner3.jpg) left top no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: center;
+}
+.slider4{
+    background: url(../images/banner4.jpg) left top no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: center;
+}
+.slider5{
+    background: url(../images/banner5.jpg) left top no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: center;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.70);
+    z-index: -1;
+}
+.slider_txt{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    right: 0;
+    bottom: 25px;
+}
+.slider_txt h3{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.slider_txt h2{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.f_banner .slick-dots{
+    bottom: 5%;
+}
+.f_banner .slick-dots li{
+    margin: 0 2px;
+}
+.f_banner .slick-dots li button{
+    height: 18px;
+    width: 18px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    content: ".";
+}
+.f_banner .slick-dots li.slick-active button::before{
+    font-size: 0;
+}
+.f_banner .slick-dots .slick-active button{
+    border-color: #275CAB;
+    background: #275CAB;
+}
+/*mmmm*/
+.f_about{
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+.about_txt{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.about_img{
+
+}
+.about_txt h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #353535;
+    text-transform: uppercase;
+}
+.about_txt p{
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+}
+/*mmm*/
+.f_video{
+    margin-bottom: 80px;
+}
+.con_header{
+    padding-bottom: 20px;
+}
+.con_header h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #353535;
+    text-transform: uppercase;
+}
+.video{
+    background: url(../images/video.png) left top no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.video:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.70);
+    z-index: -1;
+}
+.vi_i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    color: white;
+    transition: all .5s linear;
+}
+.vi_i:hover{
+    color: #275CAB;
+}
+/*mmmm*/
+.f_team{
+    margin-bottom: 0px;
+}
+.team_img{
+    margin: 80px 0;
+    position: relative;
+    transition: all .5s linear;
+    z-index: 1;
+}
+.team_img img{
+    border-radius: 10px 10px 0px 0px;
+}
+.slick-slide{
+    padding-bottom: 50px;
+}
+.team_img:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.60);
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+}
+.team{
+    position: relative;
+}
+.team_txt{
+    padding: 20px 0;
+    padding-bottom: 0;
+    border: 2px solid #cccccc;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    height: 110px;
+    width: 255px;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    border-top: 0;
+    transition: all .4s linear;
+}
+.team_txt h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: #353535;
+}
+.team_txt h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999;
+}
+.team_txt p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    width: 66%;
+    margin: auto;
+}
+.team:hover .team_txt{
+    transform: translateY(100%);
+    opacity: 1;
+}
+.team:hover .team_img:before{
+    opacity: 1;
+}
+.team:hover .team_img{
+    margin-top: 0;
+}
+.team_img_i i:hover{
+    background: #1da1f2;
+    color: white;
+}
+/*mmm*/
+.f_feedback{
+    margin-bottom: 60px;
+}
+.feedback{
+    background: url(../images/feedback.jpg) left top no-repeat;
+    background-size: cover;
+    height: 530px;
+    background-attachment: fixed;
+    position: relative;
+}
+.feedback:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.70);
+}
+.f_txt{
+    margin: 50px 0;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    background: #f1f1f1;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.f_txt:before{
+    position: absolute;
+    content: "";
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #f1f1f1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.f_txt p{
+    color: #777;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.f_star i{
+    line-height: 10px;
+    color: #275CAB;
+}
+.f_txt h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: #353535;
+}
+.f_txt h3{
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+}
+.f_img{
+    display: inline-block;
+}
+.f_img img{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    border: 1px solid white;
+    transition: all .5s linear;
+}
+.f_img{
+    margin-top: 40px;
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    transition: all .5s linear;
+}
+.f_img:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 110px;
+    width: 110px;
+    background: rgba(0,0,0,.60);
+    border-radius: 50%;
+}
+.f_img_slider .slick-dots{
+    bottom: -0px;
+}
+.f_img_slider .slick-dots li button{
+    height: 16px;
+    width: 16px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    content: ".";
+}
+.f_img_slider .slick-center img{
+    transform: scale(1.3);
+    text-align: center;
+    border: 1px solid #275CAB;
+    border-color: #275CAB;
+}
+.f_img_slider .slick-center .f_img:before{
+    height: 00px;
+    width: 00px;
+}
+/*mmm*/
+.f_footer{
+    padding: 15px 0;
+    padding-bottom: 15px;
+    background: #30393A;
+}
+.footer_i{
+    padding: 15px 0;
+}
+.footer_i i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    color: #353535;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+.footer_i i:hover{
+    background: #275CAB;
+    color: white;
+}
+.footer p{
+    font-family: 'Open sans', sans-serif;
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer p span{
+    color: #275CAB;
+}
+/*mmm*/
+.sticky_menu{
+    position: fixed;
+    padding: 5px 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #275CAB;
+    transition: all .5s linear;
+    opacity: 0.99;
+}
+.sticky_menu .logo h2{
+    color: #C2DFFF;
+}
+.sticky_menu .navbar-nav .nav-link{
+    color:#275CAB;
+}
+.sticky_menu:hover .navbar-nav .nav-link{
+    background: black;
+}
+/*mmm*/
+/*top*/
+.top_p{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    display: none;
+    z-index: 1000;
+    cursor: pointer;
+}
+.top_p i{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #275CAB;
+    line-height: 37px;
+    font-size: 22px;
+    border: 1px solid transparent;
+    transition: all .5s linear;
+}
+.top_dis{
+    display: block;
+}
+.top_p i:hover{
+    background: white;
+    color: #744fa0;
+    border-color: #744fa0;
+}
+/*/top*/
+.navbar-toggler{
+    background-color: red;
+    border: 1px solid green;
+}

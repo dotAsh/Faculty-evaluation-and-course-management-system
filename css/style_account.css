@@ -1,0 +1,259 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2019, 12:53:18 AM
+    Author     : Nahid
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*mmm*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+/*mmm*/
+.a_top{
+    padding: 20px 0;
+    background: #92B7C3;
+}
+.a_top_img img{
+    width: 100px;
+}
+.a_top_txt h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    padding: 25px 0;
+}
+/*mmm*/
+.a_body{
+    padding: 10px 0;
+    background: #F1F1F1;
+}
+.st_content{
+    border: 1px solid #92B7C3;
+    border-radius: 2px;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+}
+/*mmm*/
+.a_home{
+    padding: 50px 40px;
+}
+.a_home h3{
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.a_home h4{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 24px;
+    color: red;
+}
+/*mmm*/
+.add_course{
+    padding: 20px 50px;
+}
+.add_course p{
+    border: 1px solid red;
+    display: inline-block;
+    padding: 0 40px;
+}
+.add_course h2{
+    display: inline-block;
+}
+.add_course form{
+    display: inline-block;
+}
+.add_course select{
+    height: 165px;
+    width: 120px;
+    background: border-box;
+}
+.add_course select option{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.add_course select .first{
+    text-align: left;
+}
+/*mmm*/
+.a_log_out{
+    padding: 60px 0;
+}
+.a_log_out h2{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: red;
+}
+.a_log_out a{
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 25px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+.course_details h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+    padding: 2px 0;
+}
+.course_details button{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    padding: 6px 12px;
+    background: red;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    border: 0;
+    outline: 0;
+    transition: all .5s linear;
+}
+.course_details button:hover{
+    background: green;
+    color: white;
+}
+.evluate{
+    padding: 25px 45px;
+}
+.eva{
+
+}
+.eva p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    color: red;
+}
+.eva a{
+    display: inline-block;
+    margin-top: -4px;
+    padding: 2px 10px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0;
+    font-weight: 700;
+    transition: all .5s linear;
+}
+.eva a:hover{
+    background: gold;
+}
+.no_cou h2{
+    padding: 50px 210px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+.disabled {
+    pointer-events: none;
+}
+/*mmmmm euva*/
+.f_faculty{
+    padding: 0px 0;
+    background: #FFFFFF;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+.faculty h2{
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.faculty_pic{
+    box-sizing: border-box;
+    padding-top: 23px;
+}
+.faculty_pic img{
+    width: 115px;
+    border-radius: 50%;
+    border: 1px solid red;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+.f_radio{
+    padding: 20px 0;
+}
+.f_radio p{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.f_radio p span{
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.f_radio input{
+    cursor: pointer;
+}
+.f_radio h2{
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    text-transform: capitalize;
+}
+.f_ques{
+    margin: 10px 0;
+    box-shadow: 2px 3px 10px 1px #888888;
+    padding: 10px 40px;
+    border-radius: 10px;
+    padding-bottom: 0;
+}
+.e_sub{
+    padding: 5px 0;
+}
+.e_sub input{
+    border: 0;
+    padding: 5px 15px;
+    color: white;
+    background: red;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all .5s linear;
+}
+.e_sub input:hover{
+    background: green;
+}
+.no_add h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    padding: 50px 0;
+}

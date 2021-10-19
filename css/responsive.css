@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2019, 8:54:56 PM
+    Author     : Nahid
+*/
+
+@media (max-width: 767px) {
+    .f_nav{
+        padding: 16px 8px;
+        transition: all .5s linear;
+    }
+    .sticky_menu{
+        padding: 5px 8px;
+    }
+    .nav_u_l{
+        display: inline-block;
+        text-align: center;
+    }
+    .slider{
+        height: 450px;
+    }
+    .slider_txt{
+        padding: 0 10px;
+    }
+    .slider_txt h1{
+        font-size: 45px;
+    }
+    .slider_txt h2{
+        font-size: 23px;
+        padding: 0 0;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav li{
+        text-align: right;
+    }
+    .f_trail{
+        display: inline-block;
+    }
+    /*ndjs*/
+    .f_banner .slick-dots{
+        bottom: 2%;
+    }
+    .f_banner .slick-dots li button{
+        height: 20px;
+        width: 20px;
+        background: transparent;
+        border: 3px solid white;
+        border-radius: 50%;
+        content: ".";
+    }
+    .f_banner .slick-dots li{
+        display: inline-block;
+        margin: 0px 5px;
+        left: 0%;
+        top: 0;
+        transform: translate(0,0);
+    }
+    .f_banner .slick-dots li.slick-active button::before{
+        font-size: 28px;
+        color: #744fa0;
+    }
+    .slider .home_icon{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: white;
+        font-size: 22px;
+        z-index: 12;
+        cursor: pointer;
+        transition: all .5s linear;
+    }
+    .slider_txt h3{
+        padding: 18px 0;
+        font-size: 11px;
+        line-height: 15px;
+        width: 100%;
+        margin: 0;
+    }
+    .slider_txt_line{
+        width: 52%;
+        top: -143px;
+        left: 43%;
+    }
+    .slider_txt a p span{
+        font-size: 12px;
+    }
+    .slider_txt a p{
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .slider_txt a i{
+        font-size: 26px;
+    }
+    .slider_txt a{
+        margin: 0 2px;
+        padding: 7px 14px;
+    }
+    .slider .home_icon{
+        display: none;
+    }
+    /*sdj*/
+    /*mm*/
+    .f_about{
+        padding: 0px 0;
+    }
+    .about_txt{
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+    .about_txt p{
+        font-size: 13px;
+    }
+    .about_txt h2{
+        font-size: 22px;
+    }
+    /*mmm*/
+    .features{
+
+    }
+    .con_header h2{
+        font-size: 20px;
+    }
+    .tab_txt, .tab_line{
+        display: none;
+    }
+    .nav-pills{
+        flex-direction: row !important
+    }
+    .nav-pills .nav-link{
+        padding: 0 10px;
+        padding-bottom: 20px;
+    }
+    .tab_i i{
+        font-size: 30px;
+    }
+    .tab_right_txt{
+        text-align: center !important;
+        padding-top: 30px;
+    }
+    /*mmm*/
+    .f_ss{
+        margin-bottom: 100px;
+    }
+    .ss_slider img{
+        width: 100%;
+    }
+    /*mm*/
+    .f_video{
+        margin-bottom: 70px;
+    }
+    .video{
+        height: 350px;
+    }
+    /*mm*/
+    .price{
+        margin: 15px 0;
+    }
+    /*mm*/
+    .f_team{
+        margin-bottom: 30px;
+    }
+    .team_img_i{
+        left: 41%;
+        top: 50%;
+        transform: translate(-31%,-50%); 
+    }
+    .team_txt{
+        padding: 10px 0;
+    }
+    /*mm*/
+    .f_txt p{
+        font-size: 12px;
+    }
+    .f_star i{
+        font-size: 14px;
+    }
+    .f_txt h3{
+        font-size: 13px;
+    }
+    .f_txt h2{
+        font-size: 15px;
+    }
+    /*mm*/
+    .email{
+        width: 250px;
+        margin: 10px 0;
+    }
+    .emailm{
+        margin: 0;
+    }
+    /*mm*/
+    .footer p{
+        font-size: 12px;
+    }
+    /*mm*/
+    .top_p{
+        bottom: 20px;
+        right: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+
+
+}
+@media(min-width:1200px){
+
+
+
+}

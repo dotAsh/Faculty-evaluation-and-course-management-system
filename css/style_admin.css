@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2019, 2:30:01 AM
+    Author     : Nahid
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*mmmm*/
+.admin_body{
+    padding: 10px 0;
+    background: #F1F1F1;
+}
+.admin_content{
+    border: 1px solid #92B7C3;
+    border-radius: 2px;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+/*mmm*/
+.a_top{
+    padding: 20px 0;
+    background: #92B7C3;
+}
+.a_top_img img{
+    width: 100px;
+}
+.a_top_txt h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: red;
+    padding: 25px 0;
+}
+/*mmmm*/
+.a_log_out{
+    padding: 60px 0;
+}
+.a_log_out h2{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: red;
+}
+.a_log_out a{
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 25px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 1px #888888;
+}
+/*mmm*/
+.admin_home{
+    padding: 50px 40px;
+}
+.admin_home h3{
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.admin_home h4{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 24px;
+    color: red;
+}
+/*mmmm*/
+.st_info, .fac_info{
+    padding-top: 30px;
+}
+.st_info form, .fac_info form{
+    display: inline-block;
+}
+.st_info select{
+    height: 165px;
+    width: 100px;
+    background: border-box;
+}
+.st_info select option, .fac_info select option{
+    text-align: center;
+}
+.st_info first, .fac_info select .first{
+    text-align: left;
+}
+/*mmm*/
+#here_st_info{
+    font-weight: 800;
+    font-size: 20px;
+    color: red;
+    line-height: 32px; 
+}
+.fac_info select{
+    height: 185px;
+    width: 185px;
+    background: border-box;
+    font-size: 16px;
+    font-weight: 700;
+}
+#here_fac_info{
+    font-weight: 500;
+    font-size: 15px;
+    color: red;
+    line-height: 18px; 
+}
+.fac_info_admin p{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fac_info_admin h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+.admin_f_ques{
+    margin: 10px 0;
+    box-shadow: 2px 3px 10px 1px #888888;
+    padding: 10px 40px;
+    border-radius: 10px;
+    padding-bottom: 0;
+}
+.admin_f_ques p{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.admin_f_ques p span{
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.admin_f_ques input{
+    cursor: pointer;
+}
+.admin_f_ques h2{
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+    text-transform: capitalize;
+}
+.admin_e_sub{
+    padding: 5px 0;
+}
+.admin_e_sub input{
+    border: 0;
+    padding: 5px 15px;
+    color: white;
+    background: red;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+.admin_e_sub input:hover{
+    background: green;
+}
+.admin_course{
+    padding: 35px 20px;
+    padding-bottom: 0;
+}
+.progress{
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.progress p{
+    padding: 0 5px;
+}
+.bar h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+.bar_not_eva h4{
+    font-size: 14px;
+    color: red;
+    font-weight: 800;
+    margin-top: -18px;
+}
+.bar_not_eva h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: red;
+    font-weight: 700;
+}
+/*mmmm*/
+.course_select form{
+    display: inline-block;
+}
+.course_select select{
+    height: 165px;
+    width: 120px;
+    background: border-box;
+}
+.course_select select option{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.course_select select .first{
+    text-align: left;
+}
+.bar_not_eva select{
+    height: 130px;
+    width: 120px;
+    background: border-box;
+}
+/*mmm*/
